@@ -1,0 +1,9 @@
+Detta API utvecklades för att hantera bokkatalogiseringssystemet med huvudkriterierna för böcker som ID, titel, författarens namn, genre, publiceringsdatum och betyg.
+
+För att implementera detta API har följande steg utförts:
+
+En datastruktur skapades för att lagra information om varje bok, inklusive ID, titel, författarens namn, genre, publiceringsdatum och betyg.
+
+API:et skapades med olika endpoints för att hantera olika operationer såsom att hämta en bok baserat på ID, lägga till en ny bok, uppdatera bokinformation, ta bort en bok och lista alla tillgängliga böcker.
+
+För att lagra bokinformationen implementerades databasåtkomstfunktionalitet för att kunna spara och hämta data från en databas.
