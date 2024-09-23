@@ -5,7 +5,7 @@ let dbConnection
 
 module.exports = {
   connectToDb: (cb) => {
-    MongoClient.connect('mongodb+srv://Tester1:<test1>@cluster0.ljd5c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    MongoClient.connect('mongodb://localhost:27017/bookstore')
       .then((client) => {
         dbConnection = client.db()
         return cb()
